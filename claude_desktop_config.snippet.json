@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "highbridge": {
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/ghl-mcp/src/index.js"],
+      "env": {
+        "GHL_API_KEY": "your_key_here",
+        "GHL_LOCATION_ID": "your_location_id_here"
+      }
+    }
+  }
+}

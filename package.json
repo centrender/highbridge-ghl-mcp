@@ -1,0 +1,21 @@
+{
+  "name": "ghl-mcp-server",
+  "version": "1.2.0",
+  "description": "HighBridge — The AI bridge for GoHighLevel. 90 tools, 16/17 API surfaces live-verified.",
+  "license": "CC-BY-NC-4.0",
+  "homepage": "https://highbridge.pro",
+  "author": "Faruk Sahin <support@centrender.com> (https://centrender.com)",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "ghl-mcp": "./src/index.js" },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/index.js --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0",
+    "dotenv": "^16.3.0"
+  }
+}
