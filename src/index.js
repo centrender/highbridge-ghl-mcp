@@ -89,8 +89,8 @@ const ghl = new GHLClient(GHL_API_KEY, GHL_LOCATION_ID);
 // ── MCP Server ────────────────────────────────────────────────────────────
 const server = new McpServer({
   name: "highbridge",
-  version: "1.1.0",
-  description: "HighBridge — 90-tool GoHighLevel MCP server. https://highbridge.pro",
+  version: "1.2.0",
+  description: "HighBridge: 90-tool GoHighLevel MCP server. https://highbridge.pro",
 });
 
 // ── Register all tool modules ─────────────────────────────────────────────
